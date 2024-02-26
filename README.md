@@ -13,7 +13,7 @@ reference gopher server frontend for the hURL hack, and a suggestion on how to d
   * chmod a+x /usr/local/bin/astacus.sh
   * chmod a+x /usr/local/bin/urlencode
 * edit variables in the configuration section at the top of the astacus.sh script:
-* * _PATH_ The location the scripts are installed to
+  * _PATH_ The location the scripts are installed to
   * _fqdn_ The hostname of the gopher server that will is sending the actual content
   * _port_ The TCP port of the same server
   * _usecurl_ enter true or false here, if true curl will be used to connect to the gopher server, otherwise the server will be executed
